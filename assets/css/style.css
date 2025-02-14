@@ -102,3 +102,7 @@ a {
   justify-self: center;
   padding-top: 1rem;
 }
+p,
+h1 {
+  text-align: center;
+}
