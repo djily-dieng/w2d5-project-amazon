@@ -1,7 +1,7 @@
 #divlogo {
   width: 100%;
   height: 60px;
-  background-color: #154c79;
+  background-color: #09477af1;
 }
 #loo {
   width: 10%;
@@ -10,6 +10,7 @@
   width: 100%;
   height: 30px;
   background-color: #195e83;
+  display: flex;
 }
 a {
   color: white;
@@ -32,15 +33,15 @@ a {
 }
 #flexcontainer {
   width: 95%;
-  padding: 0;
+  padding-top: 20px;
   border: 1px solid white;
   display: flex;
   justify-content: space-around;
-  height: 250px;
+  height: 245px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: rgba(249, 249, 242, 0.966);
 }
 #flexcontainer > .block1,
 .block2,
@@ -79,7 +80,7 @@ a {
   width: 95%;
   display: flex;
   align-self: center;
-  height: 160px;
+  height: 200px;
 }
 #flexcontainer2 {
   background-image: url(/assets/images/img_9.png);
@@ -93,8 +94,10 @@ a {
 }
 #containfooter {
   width: 100%;
-  height: 70px;
+  height: 80px;
+  padding-bottom: 20px;
   background-color: #154c79;
+  padding-top: 0.85rem;
 }
 #logoft {
   width: 15%;
@@ -102,7 +105,42 @@ a {
   justify-self: center;
   padding-top: 1rem;
 }
-p,
-h1 {
+
+#paragraph {
+  display: flex;
+  justify-self: center;
+  padding-top: 0.4em;
+  color: white;
+}
+.title {
   text-align: center;
+  padding-top: 3%;
+  color: white;
+  font-size: 2rem;
+}
+#paragraph2 {
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+}
+.tr {
+  padding-left: 3rem;
+}
+.elencocliccabili > .div1 {
+  border-radius: 6px;
+  padding-left: 15px;
+  padding-top: 7px;
+  color: white;
+}
+.miniparagraph {
+  display: flex;
+  justify-self: center;
+}
+
+.elenco1 > #backtotop {
+  justify-self: center;
+}
+#link {
+  padding-left: 37rem;
+  padding-top: 0.3em;
 }
